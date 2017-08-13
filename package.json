@@ -1,0 +1,12 @@
+{
+	"name": "@charmander/eslint-config-base",
+	"version": "1.0.0",
+	"description": "ESLint configuration",
+	"keywords": ["eslint", "eslintconfig"],
+	"license": "CC0-1.0",
+	"files": ["index.json"],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/charmander/eslint-config-base"
+	}
+}
