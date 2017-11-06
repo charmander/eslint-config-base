@@ -65,7 +65,7 @@
 		"one-var": ["error", "never"],
 		"operator-linebreak": ["error", "after"],
 		"padded-blocks": ["error", "never"],
-		"quotes": ["error", "single"],
+		"quotes": ["error", "single", {"avoidEscape": true}],
 		"semi": ["error", "always"],
 		"semi-spacing": "error",
 		"space-before-blocks": "error",
