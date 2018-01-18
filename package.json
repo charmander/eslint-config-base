@@ -1,6 +1,6 @@
 {
 	"name": "@charmander/eslint-config-base",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "ESLint configuration",
 	"keywords": ["eslint", "eslintconfig"],
 	"license": "CC0-1.0",

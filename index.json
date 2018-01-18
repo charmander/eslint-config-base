@@ -7,6 +7,7 @@
 	},
 	"extends": "eslint:recommended",
 	"rules": {
+		"no-control-regex": "off",
 		"no-extra-parens": ["error", "all", {"conditionalAssign": false, "returnAssign": false, "nestedBinaryExpressions": false}],
 		"no-prototype-builtins": "error",
 
