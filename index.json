@@ -1,6 +1,6 @@
 {
 	"parserOptions": {
-		"ecmaVersion": "2017"
+		"ecmaVersion": "2020"
 	},
 	"env": {
 		"es6": true
@@ -47,7 +47,13 @@
 		"no-new-require": "error",
 		"no-path-concat": "error",
 
-		"comma-dangle": ["error", "always-multiline"],
+		"comma-dangle": ["error", {
+			"arrays": "always-multiline",
+			"objects": "always-multiline",
+			"imports": "always-multiline",
+			"exports": "always-multiline",
+			"functions": "only-multiline"
+		}],
 		"comma-spacing": "error",
 		"comma-style": "error",
 		"computed-property-spacing": "error",
